@@ -8,7 +8,7 @@ from discord.ext import commands
 from keep_alive import keep_alive
 
 load_dotenv()
-TOKEN = os.environ.get('4ropurX5hCsIkfyPP1YqdyuviSc7h4rn')
+TOKEN = os.environ.get('you_api_here')
 
 def is_valid_ip(ip):
     m = re.match(r"^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$", ip)
@@ -53,4 +53,4 @@ async def shodan_command(ctx, args):
 
 # Start the bot
 keep_alive()
-bot.run('MTEyODY1NzQzOTQwMzgwNjgwMA.G2DMGM.dDxo5o2lpD5W0GjPy4vRugDOyKB7WtQHtn4mhc')
+bot.run('you_token_here')
