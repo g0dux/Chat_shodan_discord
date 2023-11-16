@@ -19,5 +19,6 @@ TOKEN=you_token_here API_KEY=you_api_here
 python bot.py 
 ## Usage To use the bot, you need to invite it to your Discord server and give it permission to send messages and embed links. 
 After that, you can use the `?shodan` command followed by a valid IP address to search for Shodan and receive an embed with the results. 
-For example: ?shodan 8.8.8.8 The bot will respond with an embed like this: ![embed example] ## License Shodan Bot is licensed under the MIT License. 
+For example: ?shodan 8.8.8.8 The bot will respond with an embed like this: ![embed example] 
+## License Shodan Bot is licensed under the MIT License. 
 See the LICENSE file for more details.
